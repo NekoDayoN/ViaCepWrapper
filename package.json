@@ -1,0 +1,23 @@
+{
+  "name": "viacep-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test:tdd": "node_modules/.bin/mocha --watch 'test/**/*.spec.js'"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.1.2",
+    "nock": "^12.0.3",
+    "sinon": "^9.0.2"
+  },
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
+}
